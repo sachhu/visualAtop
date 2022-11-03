@@ -1,5 +1,4 @@
 const { spawn } = require("child_process");
-const { stderr } = require("process");
 
 async function runAtop() {
     return new Promise((resolve, reject) => {
