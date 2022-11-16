@@ -2,6 +2,27 @@
 
 visualAtop is a webTool for visalise the output of Atop tool in a webpage
 
+## About [Atop](https://www.atoptool.nl)
+The atop command is a tool for monitoring system resources in Linux. It displays tons of information related to the amount of load on the system's resources at the process level.
+
+Checkout atop website [atop](https://www.atoptool.nl)
+
+## Pre-Requirement
+Atop should be already installed in the system.
+
+### Install atop on RHEL/CentOS/Fedora Linux
+```sh
+dnf install atop
+```
+or
+```sh
+yum install atop
+```
+### Install atop on Debian/Ubuntu Linux
+```sh
+apt install atop
+```
+
 ## Installation
 Installation has two parts
 
